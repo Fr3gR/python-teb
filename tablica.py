@@ -7,3 +7,4 @@ for i in range(n):
             bufor = tab[i]
             tab[i] = tab[j]
             tab[j] = bufor
+print(tab)
