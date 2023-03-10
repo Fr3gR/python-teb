@@ -4,6 +4,6 @@ n = len(tab)
 for i in range(n):
     for j in range(i+1, n):
         if tab[i] > tab [j]:
-            bufor = i
-            i = j
-            j = bufor
+            bufor = tab[i]
+            tab[i] = tab[j]
+            tab[j] = bufor
